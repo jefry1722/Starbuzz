@@ -20,6 +20,7 @@ public class DrinkCategoryActivity extends AppCompatActivity {
                 android.R.layout.simple_list_item_1,
                 Drink.drinks);
         ListView listDrinks=(ListView) findViewById(R.id.list_drinks);
+        listDrinks.setAdapter(listAdapter);
 
         //Create the listener
         AdapterView.OnItemClickListener itemClickListener=

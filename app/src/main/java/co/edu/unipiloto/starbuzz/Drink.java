@@ -11,7 +11,7 @@ public class Drink {
             new Drink("Filter", "Highest quality beans roaster and brewed fresh", R.drawable.filter)
     };
 
-    private Drink(String name, String description, int imageResourceId){
+    public Drink(String name, String description, int imageResourceId){
         this.name=name;
         this.description=description;
         this.imageResourceId=imageResourceId;

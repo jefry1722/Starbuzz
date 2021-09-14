@@ -18,7 +18,7 @@ public class DrinkActivity extends AppCompatActivity {
         setContentView(R.layout.activity_drink);
 
         //Get the drink from the intent
-        int drinkId=(Integer)getIntent().getExtras().get(EXTRA_DRINKID);
+        int drinkId=(int)getIntent().getExtras().get(EXTRA_DRINKID);
         Drink drink= Drink.drinks[drinkId];
 
         //Populate the drink name
